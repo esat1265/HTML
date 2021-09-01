@@ -10,16 +10,16 @@
 </head>
 <body>
     <main>
-        <header>
+        <header id="head"> <!--Header bolumu-->
             <h1>WP 2021-Hafta 03- Ödev</h1><br>
             <article>Bu haftaki derste daha fazla <mark>HTML Attribut</mark>lerini tandikve biraz daha detaylarina baktik ve <mark>HTML Entities</mark>'ler ile tanistik. Ayrica <strong><u>form</u></strong> ve  kullanicilarin bilgi girebilmesi icin <strong><u>input</u></strong> elemanlarini tanidik. Asagida "Hafta -4 Konseptler ve Linkler" bolumunde bu hafta islediklerimizi ozet olarak bulabilirsiniz</article>
         </header>
         <hr>
 
-        <section>
-            <fieldset>
-                <legend><b><mark>HATIRLATMA</mark></b></legend>
-                <details open>
+        <section id="section-1"> <!--1.section bolumu/fieldset-->
+            <fieldset class="fieldset">
+                <legend class="legend"><b><mark>HATIRLATMA</mark></b></legend>
+                <details id="details" open>
                     <summary style="color:#FF0000";>OKU BENI...</summary>
                     <b>Teori derslerinde gordugumuz</b><br><br>Olcu olarak referans alabilirisiniz:<br><br>
                     <ul>
@@ -32,9 +32,9 @@
             </fieldset>
         </section><br>
 
-        <section>
-            <fieldset>
-                <legend><b>Hafta 04 Konseptler ve Linkler</b></legend>
+        <section id="section-2"> <!--2.section bolumu/fieldset-->
+            <fieldset class="fieldset">
+                <legend class="legend"><b>Hafta 04 Konseptler ve Linkler</b></legend>
                 <details open>
                     <summary>Goster...</summary>
                     <ul>
@@ -88,7 +88,7 @@
         </section>
         <hr><br>
 
-        <section>
+        <section id="section-3"> <!--2.section bolumu/tablolar-->
             <table width="100%"><caption>Isvicre'de bazi kantonlar ile ilgili bilgiler</caption>
                 <thead style="background: teal;">
                     <th>Isim</th>
@@ -100,7 +100,7 @@
                     <th>sayfasi</th>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="row-1-2-3">
                         <td>Zurich</td>
                         <td>ZH</td>
                         <td>Zurich</td>
@@ -109,7 +109,7 @@
                         <td><img src="./Z.jfif" alt="zurich" width="30"></td>
                         <td><a href="https:/zh.ch">zh.ch</a></td>
                     </tr>
-                    <tr>
+                    <tr class="row-1-2-3">
                         <td>Cenevre</td>
                         <td>GE</td>
                         <td>Cenevre</td>
@@ -118,7 +118,7 @@
                         <td><img src="./C.png" alt="" width="30"></td>
                         <td><a href="https:/ge.ch">ge.ch</a></td>
                     </tr>
-                    <tr>
+                    <tr class="row-1-2-3">
                         <td>Bern</td>
                         <td>BE</td>
                         <td>Bern</td>
